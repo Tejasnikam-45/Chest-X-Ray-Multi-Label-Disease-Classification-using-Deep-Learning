@@ -86,7 +86,7 @@ Program flow:
 4. Displays the X-ray with a caption:
    - `Predicted Diseases: Effusion, Edema`
    - `Actual Labels: Effusion` (if CSV provided)
-   - An extra line indicates correctness, missed labels, and false positives
+   - An extra line indicates correctness, missed labels, and false positive
 
 ### API Summary
 - `ChestXrayDataset` (in `train_model.py`): CSV-driven dataset with transforms
